@@ -4,11 +4,11 @@ import {
   Box,
   Toolbar,
   IconButton,
-  Typography,
   Menu,
   Container,
   Tooltip,
   MenuItem,
+  Button,
 } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
 import CodeOffIcon from '@mui/icons-material/CodeOff';
@@ -16,7 +16,7 @@ import routes from '../data/routes';
 
 import Link from './Link';
 
-const TopBar = () => {
+const TopBar = (props) => {
   const [anchorElNav, setAnchorElNav] = useState(null);
 
   const handleOpenNavMenu = (event) => {
@@ -72,12 +72,12 @@ const TopBar = () => {
                 onClose={handleCloseNavMenu}>
                 {routes.map((route, idx) => (
                   <MenuItem key={idx} onClick={handleCloseNavMenu}>
-                    <Typography
+                    <Button
                       component={Link}
                       href={route.href}
-                      sx={{ my: 2, color: 'black', display: 'block' }}>
+                      sx={{ my: 1, color: 'black', display: 'block', px: 4 }}>
                       {route.name}
-                    </Typography>
+                    </Button>
                   </MenuItem>
                 ))}
               </Menu>
