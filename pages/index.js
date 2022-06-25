@@ -14,7 +14,8 @@ export default function Index() {
             right: '50%',
             transform: 'translate(30%, -50%)',
             width: '28rem',
-            maxHeight: '1000px',
+            maxWidth: '40%',
+            maxHeight: '100%',
           }}>
           <Image
             src='/images/profile-pict.jpg'
