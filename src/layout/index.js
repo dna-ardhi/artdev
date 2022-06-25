@@ -8,7 +8,6 @@ const Index = ({ children }) => {
     <Box
       display='flex'
       flexDirection='column'
-      pb={4}
       minHeight='100vh'
       position='relative'>
       <TopBar />
