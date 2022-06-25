@@ -98,7 +98,7 @@ export default function About() {
                           target='_blank'
                           color='white'
                           mr={2}>
-                          <account.icon fontSize='large' />
+                          <profile.socialMedia.icon fontSize='large' />
                         </Typography>
                       )}
                     </Box>
