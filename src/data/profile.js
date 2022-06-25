@@ -7,7 +7,7 @@ const profile = {
   Age: 22,
   role: 'Frontend Developer',
   summary:
-    'I,m Ardhi. A 22 years old living in a small, but damn beautiful country called Indonesia',
+    "I'm Ardhi. A 22 years old living in a small, but damn beautiful country called Indonesia",
   contact: [
     {
       name: 'Email',
