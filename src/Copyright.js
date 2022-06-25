@@ -11,7 +11,7 @@ export default function Copyright() {
       width='100%'
       variant='body2'
       color='text.secondary'
-      align='center'>
+      align='right'>
       {'Copyright © '}
       <MuiLink color='inherit' href='https://mui.com/'>
         artdev
