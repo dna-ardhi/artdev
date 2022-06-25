@@ -13,8 +13,8 @@ export default function Index() {
             top: '50%',
             right: '50%',
             transform: 'translate(30%, -50%)',
-            width: '50vh',
-            maxHeight: '90%',
+            width: '28rem',
+            maxHeight: '1000px',
           }}>
           <Image
             src='/images/profile-pict.jpg'
@@ -22,6 +22,7 @@ export default function Index() {
             width='4'
             height='7'
             objectFit='cover'
+            priority
             alt=''
           />
           <Box
