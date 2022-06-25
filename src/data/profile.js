@@ -32,6 +32,31 @@ const profile = {
       href: 'https://www.linkedin.com/in/dadinurardhi/',
     },
   ],
+  educations: {
+    school: 'Budi Utomo Senior High School, East Java',
+    degree: 'High School',
+    graduate: '2015-2018',
+  },
+  experiences: [
+    {
+      title: 'Junior Programmer',
+      company: 'Batam Software Digital',
+      location: 'Batam City, Riau Islands, Indonesia',
+      years: '2022',
+    },
+    {
+      title: 'Frontend Engineer',
+      company: 'Glints X Binar Academy',
+      location: 'Indonesia',
+      years: '2021-2022',
+    },
+    {
+      title: 'UI/UX Design',
+      company: 'Electives X AMMAN',
+      location: 'Indonesia',
+      years: '2021',
+    },
+  ],
 };
 
 export default profile;
