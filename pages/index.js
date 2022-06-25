@@ -91,7 +91,6 @@ export default function Index() {
                         <Typography
                           key={`social_media_icon_${idx}`}
                           sx={{ fontSize: 24 }}
-                          variant='overline'
                           component={account.href ? 'a' : 'p'}
                           href={account.href ? account.href : null}
                           target='_blank'
